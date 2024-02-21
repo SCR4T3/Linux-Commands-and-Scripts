@@ -53,7 +53,7 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 
 ### De recirección:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/20cc3bb4-dafd-40b1-bf01-dff9ab4f937c/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/Untitled.png
 
 ### Sintácticos:
 
