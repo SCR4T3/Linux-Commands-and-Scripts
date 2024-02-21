@@ -52,11 +52,11 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 - [ → Designan un carácter o rango de caracteres que representan un carácter simple a través de una lista de caracteres o mediante un rango, en cuyo caso, mostramos el primer y último carácter del rango separados por un guión “-”.
 
 ### De recirección:
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled.png</span><span>)</span>
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled.png</span><span>)</span>
 
 ### Sintácticos:
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 1.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 1.png</span><span>)</span>
 
 ```bash
 $ date
@@ -191,7 +191,7 @@ declare -i IVA="0"
 
 ### Variables Especiales
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 2.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 2.png</span><span>)</span>
 
 Si reiniciamos la bash podemos perder las variables por eso podemos exportarlas con export variable o export variable=valor.
 
@@ -224,9 +224,9 @@ Se puede escribe:
 printf "mi nombre es %s y mi edad es %d"
 ```
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 3.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 3.png</span><span>)</span>
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 4.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 4.png</span><span>)</span>
 
 ```bash
 $ printf “%10d\n” 25
@@ -321,7 +321,7 @@ ls $HOME
 
 Variables
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 5.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 5.png</span><span>)</span>
 
 Los argumentos por encima del 9 se suelen ponen entre llaves, por ejemplo, ${12}^2.
 
@@ -351,11 +351,11 @@ Para corregir dichos errores basta con leer el texto del mensaje que nos muestra
 
 Por ejemplo:
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 6.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 6.png</span><span>)</span>
 
 Para comentar un guion (#), es una buena práctica. Por ejemplo:
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 7.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 7.png</span><span>)</span>
 
 ## Expresiones con variables
 
@@ -371,7 +371,7 @@ $ echo “Faltan $(( (365 - $(date +%j)) / 7 )) semanas hasta el fin de año”
 
 ### Operadores
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 8.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 8.png</span><span>)</span>
 
 En el resultado del cálculo de expresiones aritméticas, bash solamente trabaja con números enteros, por lo que si se necesitase calcular un resultado con decimales, habría que utilizar una forma alternativa, como puede ser la ofrecida por la orden bc, cuya opción -l, letra “ele”, permite hacer algunos cálculos matemáticos (admite otras posibilidades que pueden verse mediante man).
 
@@ -383,7 +383,7 @@ $ echo 6/5|bc -l
 
 ### Operadores Relacionales
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 9.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 9.png</span><span>)</span>
 
 ### Operadores de consulta de archivos
 
@@ -391,7 +391,7 @@ https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untit
 test <expresion> //true = 0 / false = 1
 ```
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 10.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 10.png</span><span>)</span>
 
 La orden test expresion es equivalente a la orden [ expresion ] (poner espacios entre corchetes).
 
@@ -479,7 +479,7 @@ true
 
 La sintaxis de la orden condicional if es:
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 11.png
+<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 11.png</span><span>)</span>
 
 El funcionamiento de la orden if es el siguiente: se comienza haciendo la ejecución de la lista de órdenes contenidas en la primera condición; si su estado de salida es 0, entonces se ejecuta la lista de declaraciones que sigue a la palabra then y se termina la ejecución del if; si el estado de salida fuese 1, se comprueba si hay un bloque que comience por elif. En caso de haber varios bloques elif, se evalúa la condición del primero de ellos de forma que si su estado de salida es 0, se hace la parte then correspondiente y termina el if, pero si su estado de salida es 1, se continúa comprobando de manera análoga el siguiente bloque elif, si es que existe. Si el estado de salida de todas las condiciones existentes es 1, se comprueba si hay un bloque else, en cuyo caso se ejecutarían las declaraciones asociadas a él, y termina el if.
 
