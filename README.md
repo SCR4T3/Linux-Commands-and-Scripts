@@ -53,11 +53,11 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 
 ### De recirección:
 
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/Untitled.png
+(https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled.png)
 
 ### Sintácticos:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/a70eb6c8-de3b-471c-84ad-fc957fa64cf4/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 1.png
 
 ```bash
 $ date
@@ -192,7 +192,7 @@ declare -i IVA="0"
 
 ### Variables Especiales
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/86a3e457-a71c-4d2a-8312-ce3e8a43a664/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 2.png
 
 Si reiniciamos la bash podemos perder las variables por eso podemos exportarlas con export variable o export variable=valor.
 
@@ -225,9 +225,9 @@ Se puede escribe:
 printf "mi nombre es %s y mi edad es %d"
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/856a9024-815d-4f5b-bdee-28ea361efbd9/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 3.png
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/b6154e88-3a7a-499b-92e1-97e8682d8aeb/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 4.png
 
 ```bash
 $ printf “%10d\n” 25
@@ -322,7 +322,7 @@ ls $HOME
 
 Variables
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/33388396-625f-437d-9e13-8808350683b9/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 5.png
 
 Los argumentos por encima del 9 se suelen ponen entre llaves, por ejemplo, ${12}^2.
 
@@ -352,11 +352,11 @@ Para corregir dichos errores basta con leer el texto del mensaje que nos muestra
 
 Por ejemplo:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/45cc4efa-1ba7-4ddd-95c3-3220795ffea5/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 6.png
 
 Para comentar un guion (#), es una buena práctica. Por ejemplo:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/a31fe7e4-9455-4524-b75c-7191f1f15379/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 7.png
 
 ## Expresiones con variables
 
@@ -372,7 +372,7 @@ $ echo “Faltan $(( (365 - $(date +%j)) / 7 )) semanas hasta el fin de año”
 
 ### Operadores
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/3113cd02-19af-4f94-ad54-a5be497597f7/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 8.png
 
 En el resultado del cálculo de expresiones aritméticas, bash solamente trabaja con números enteros, por lo que si se necesitase calcular un resultado con decimales, habría que utilizar una forma alternativa, como puede ser la ofrecida por la orden bc, cuya opción -l, letra “ele”, permite hacer algunos cálculos matemáticos (admite otras posibilidades que pueden verse mediante man).
 
@@ -384,7 +384,7 @@ $ echo 6/5|bc -l
 
 ### Operadores Relacionales
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/a66bc6e5-8db3-46c9-80e9-eb2aa714e102/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 9.png
 
 ### Operadores de consulta de archivos
 
@@ -392,7 +392,7 @@ $ echo 6/5|bc -l
 test <expresion> //true = 0 / false = 1
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/d3de8f34-3ef9-421a-b847-9898992224c2/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 10.png
 
 La orden test expresion es equivalente a la orden [ expresion ] (poner espacios entre corchetes).
 
@@ -480,7 +480,7 @@ true
 
 La sintaxis de la orden condicional if es:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8037b91b-a83e-4748-8295-d47a2f1320d3/055751cd-f368-40db-9caf-1502d92cfd85/Untitled.png)
+https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 11.png
 
 El funcionamiento de la orden if es el siguiente: se comienza haciendo la ejecución de la lista de órdenes contenidas en la primera condición; si su estado de salida es 0, entonces se ejecuta la lista de declaraciones que sigue a la palabra then y se termina la ejecución del if; si el estado de salida fuese 1, se comprueba si hay un bloque que comience por elif. En caso de haber varios bloques elif, se evalúa la condición del primero de ellos de forma que si su estado de salida es 0, se hace la parte then correspondiente y termina el if, pero si su estado de salida es 1, se continúa comprobando de manera análoga el siguiente bloque elif, si es que existe. Si el estado de salida de todas las condiciones existentes es 1, se comprueba si hay un bloque else, en cuyo caso se ejecutarían las declaraciones asociadas a él, y termina el if.
 
