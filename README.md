@@ -57,7 +57,7 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 
 ### Sintácticos:
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 1.png</span><span>)</span>
+![Si no carga toca el link](Untitled 1.png)
 
 ```bash
 $ date
