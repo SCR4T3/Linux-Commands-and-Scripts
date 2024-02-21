@@ -52,8 +52,7 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 - [ → Designan un carácter o rango de caracteres que representan un carácter simple a través de una lista de caracteres o mediante un rango, en cuyo caso, mostramos el primer y último carácter del rango separados por un guión “-”.
 
 ### De recirección:
-
-https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled.png
+<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled.png</span><span>)</span>
 
 ### Sintácticos:
 
