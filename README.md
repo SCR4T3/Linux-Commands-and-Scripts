@@ -57,7 +57,7 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 
 ### Sintácticos:
 
-![Si no carga toca el link](Untitled1.png)
+![Si no carga toca el link](/img/Untitled1.png)
 
 ```bash
 $ date
@@ -192,7 +192,7 @@ declare -i IVA="0"
 
 ### Variables Especiales
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 2.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled2.png)
 
 Si reiniciamos la bash podemos perder las variables por eso podemos exportarlas con export variable o export variable=valor.
 
@@ -225,9 +225,9 @@ Se puede escribe:
 printf "mi nombre es %s y mi edad es %d"
 ```
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 3.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled3.png)
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 4.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled4.png)
 
 ```bash
 $ printf “%10d\n” 25
@@ -321,8 +321,7 @@ ls $HOME
 ```
 
 Variables
-
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 5.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled5.png)
 
 Los argumentos por encima del 9 se suelen ponen entre llaves, por ejemplo, ${12}^2.
 
@@ -351,12 +350,11 @@ Para corregir dichos errores basta con leer el texto del mensaje que nos muestra
 -x: Actúa igual que –v sólo que sustituyendo, en su caso, las variables por los valores que tienen en ese instante.
 
 Por ejemplo:
-
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 6.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled6.png)
 
 Para comentar un guion (#), es una buena práctica. Por ejemplo:
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 7.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled7.png)
 
 ## Expresiones con variables
 
@@ -372,7 +370,7 @@ $ echo “Faltan $(( (365 - $(date +%j)) / 7 )) semanas hasta el fin de año”
 
 ### Operadores
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 8.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled8.png)
 
 En el resultado del cálculo de expresiones aritméticas, bash solamente trabaja con números enteros, por lo que si se necesitase calcular un resultado con decimales, habría que utilizar una forma alternativa, como puede ser la ofrecida por la orden bc, cuya opción -l, letra “ele”, permite hacer algunos cálculos matemáticos (admite otras posibilidades que pueden verse mediante man).
 
@@ -384,7 +382,7 @@ $ echo 6/5|bc -l
 
 ### Operadores Relacionales
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 9.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled9.png)
 
 ### Operadores de consulta de archivos
 
@@ -392,7 +390,7 @@ $ echo 6/5|bc -l
 test <expresion> //true = 0 / false = 1
 ```
 
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 10.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled10.png)
 
 La orden test expresion es equivalente a la orden [ expresion ] (poner espacios entre corchetes).
 
@@ -479,8 +477,7 @@ true
 ## Orden if / else
 
 La sintaxis de la orden condicional if es:
-
-<span>![</span><span>Si no carga pincha el enlace</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/SCR4T3/Linux-Commands-and-Scripts/master/Untitled 11.png</span><span>)</span>
+![Si no carga toca el link](/img/Untitled11.png)
 
 El funcionamiento de la orden if es el siguiente: se comienza haciendo la ejecución de la lista de órdenes contenidas en la primera condición; si su estado de salida es 0, entonces se ejecuta la lista de declaraciones que sigue a la palabra then y se termina la ejecución del if; si el estado de salida fuese 1, se comprueba si hay un bloque que comience por elif. En caso de haber varios bloques elif, se evalúa la condición del primero de ellos de forma que si su estado de salida es 0, se hace la parte then correspondiente y termina el if, pero si su estado de salida es 1, se continúa comprobando de manera análoga el siguiente bloque elif, si es que existe. Si el estado de salida de todas las condiciones existentes es 1, se comprueba si hay un bloque else, en cuyo caso se ejecutarían las declaraciones asociadas a él, y termina el if.
 
