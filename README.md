@@ -52,7 +52,7 @@ archivos, copia un archivo, crea un archivo de texto o muestra los caracteres in
 - [ → Designan un carácter o rango de caracteres que representan un carácter simple a través de una lista de caracteres o mediante un rango, en cuyo caso, mostramos el primer y último carácter del rango separados por un guión “-”.
 
 ### De recirección:
-![Si no carga toca el link](Untitled.png)
+![Si no carga toca el link](/img/Untitled.png)
 
 
 ### Sintácticos:
@@ -86,10 +86,10 @@ ls: notas: No existe el archivo o el directorio
 /home/users/quasimodo
 ```
 
-- r → Lectura.
 
 ## Permisos
 
+- r → Lectura.
 - w → Escritura.
 - x → Ejecución.
 - - → No hay permiso.
